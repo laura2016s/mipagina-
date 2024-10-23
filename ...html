@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio INEM de Kennedy - Educación Física</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec; /* Fondo pastel */
+            color: #880e4f; /* Texto rosa */
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+            max-height: 600px; /* Ajuste para alargar la imagen */
+            object-fit: cover;
+            filter: brightness(70%); /* Oscurecer la imagen para que el texto sea más legible */
+        }
+        header h1, header h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        nav {
+            background-color: #f06292; /* Fondo rosa más intenso */
+            padding: 15px;
+            text-align: center;
+            position: fixed; /* Menú fijo en la parte superior */
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            color: #ffffff; /* Texto blanco */
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #fce4ec; /* Texto blanco cuando se pasa el mouse */
+        }
+        .container {
+            padding: 100px 20px 20px; /* Aumentar el padding para compensar el menú fijo */
+        }
+        .section {
+            background-color: #f8bbd0; /* Fondo rosa pastel */
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 2px solid #f48fb1; /* Borde rosa más oscuro */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .img-container {
+            display: flex; /* Flexbox para alinear imágenes horizontalmente */
+            gap: 20px; /* Espacio entre las imágenes */
+            justify-content: center; /* Centrar las imágenes */
+            flex-wrap: wrap; /* Permitir que las imágenes se envuelvan si hay espacio */
+        }
+        .img-container img {
+            max-width: calc(50% - 10px); /* Cada imagen ocupa el 50% del ancho menos un espacio para el gap */
+            height: auto;
+            border-radius: 15px; /* Bordes redondeados */
+        }
+        footer {
+            background-color: #f8bbd0; /* Fondo rosa pastel */
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            border-top: 5px solid #f48fb1; /* Borde rosa más oscuro */
+        }
+        h1, h2 {
+            color: #d81b60; /* Texto rosa oscuro */
+        }
+        p {
+            line-height: 1.6;
+        }
+        .img-wrapper {
+            overflow: hidden; /* Asegura que el contenido no se desborde */
+            border-radius: 15px; /* Bordes redondeados */
+        }
+        .img-wrapper img {
+            max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+            height: auto; /* Mantiene las proporciones de la imagen */
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#campamento">Campamento</a>
+    <a href="#recreacion">Recreación</a>
+    <a href="#gimnasia">Gimnasia</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<header>
+    <img src="IMG/mef.jpeg"/>
+    <h2>Modalidad de Educación Física</h2>
+</header>
+
+<div class="container">
+    <section id="inicio" class="section">
+        <h2>Bienvenidos a Educación Física</h2>
+        <div class="img-wrapper">
+            <img src="IMG/imagen4.jpeg" />
+        </div>
+        <p>La Modalidad de Educación Física del Colegio INEM de Kennedy tiene como objetivo desarrollar el bienestar físico y mental de los estudiantes, a través de actividades deportivas y recreativas diseñadas para mejorar su salud y rendimiento. Fomentamos la actividad física y el bienestar integral de nuestros estudiantes a través de diversas modalidades y actividades recreativas que plantean un currículo pensado en el desarrollo de competencias ciudadanas. Además, abarcamos el desarrollo de tres habilidades: la comunicación, el trabajo en equipo y el liderazgo, que son esenciales para que el estudiante pueda "saber hacer" en el avance hacia su proyecto de vida, así como en su proyecto socio-ocupacional.</p>
+    </section>
+
+    <section id="campamento" class="section">
+        <h2>Campamento</h2>
+        <div class="img-container">
+            <img src="IMG/imagen2.jpeg"/>
+            <img src="IMG/imagen3.jpeg"/>
+        </div>  
+        <p>Nuestro campamento de educación física ofrece una experiencia única para los estudiantes, donde pueden aprender habilidades deportivas, trabajar en equipo y disfrutar de la naturaleza. Esta experiencia es enriquecedora y permite a los estudiantes desconectarse de la rutina diaria, sumergiéndose en un entorno natural que les ayuda a valorar la importancia de un estilo de vida activo. A través de actividades cuidadosamente diseñadas, fomentamos el desarrollo de habilidades deportivas como el equilibrio, la coordinación y la resistencia física, además de promover el trabajo en equipo y la cooperación.</p>
+    </section>
+
+    <section id="recreacion" class="section">
+        <h2>Recreación</h2>
+        <div class="img-wrapper">
+            <img src="IMG/imagen1.jpeg" />
+        </div>
+        <p>Fomentamos la recreación activa mediante una amplia variedad de juegos, deportes y actividades al aire libre. Estas actividades no solo mantienen a los estudiantes en movimiento, sino que también les permiten disfrutar y relajarse en un ambiente saludable. Diseñamos estas experiencias para promover la diversión y el aprendizaje, al mismo tiempo que desarrollan habilidades físicas como la coordinación, el equilibrio y la agilidad. Nuestro objetivo es que los estudiantes se mantengan activos de manera divertida, disfrutando de los beneficios del ejercicio en un ambiente de compañerismo y respeto.</p>
+    </section>
+
+    <section id="gimnasia" class="section">
+        <h2>Gimnasia</h2>
+        <div class="img-wrapper">
+            <img src="IMG/imagen5.jpeg"/>
+        </div>
+        <p>La gimnasia es una parte fundamental de nuestro programa de educación física. A través de esta disciplina, promovemos el desarrollo de habilidades motoras esenciales, como la coordinación, la fuerza y el control corporal. Trabajamos intensamente en mejorar la flexibilidad y el equilibrio de los estudiantes mediante diversas rutinas y ejercicios diseñados para adaptarse a cada nivel de habilidad. Nuestras actividades de gimnasia no solo fortalecen el cuerpo, sino que también contribuyen a mejorar la concentración y la disciplina, ya que los estudiantes aprenden a realizar movimientos precisos y a superar retos personales.</p>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Para más información sobre nuestra modalidad de educación física, no dudes en contactarnos:</p>
+        <p>Email: info@colegioinemdekennedy.edu.co</p>
+        <p>Teléfono: (123) 456-7890</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Colegio INEM de Kennedy. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+
